@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    show-sql: true
+
+jwt:
+  clientId: oauth-sample
+  client-secret: secret
+  accessTokenValidititySeconds: 120
+  refreshTokenValiditySeconds: 1000
+
+logging:
+  config:
+    classpath: log4j2.yml
+  level:
+    org:
+      hibernate:
+        SQL : INFO

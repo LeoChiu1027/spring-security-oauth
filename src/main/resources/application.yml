@@ -1,0 +1,18 @@
+spring:
+  jpa:
+    show-sql: true
+  mvc.favicon.enabled: false
+
+jwt:
+  clientId: glee-o-meter
+  client-secret: secret
+  accessTokenValidititySeconds: 600
+  refreshTokenValiditySeconds: 1000
+
+logging:
+  config:
+    classpath: log4j2.yml
+  level:
+    org:
+      hibernate:
+        SQL : INFO
