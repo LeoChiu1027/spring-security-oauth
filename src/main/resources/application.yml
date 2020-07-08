@@ -4,9 +4,9 @@ spring:
   mvc.favicon.enabled: false
 
 jwt:
-  clientId: glee-o-meter
+  clientId: oauth-sample
   client-secret: secret
-  accessTokenValidititySeconds: 600
+  accessTokenValidititySeconds: 120
   refreshTokenValiditySeconds: 1000
 
 logging:
