@@ -1,6 +1,7 @@
 spring:
   jpa:
     show-sql: true
+  mvc.favicon.enabled: false
 
 jwt:
   clientId: oauth-sample
